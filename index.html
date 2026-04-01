@@ -3,12 +3,131 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Christian Warren Portfolio</title>
+    <title>Christian Warren - Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="Container">
-        
+
+        <!--Profile and infos about sakin-->
+        <header class="header">
+            <img src="Image/PROFILE KO.jpg" alt="Profile_Picture" class="profile-pic">
+
+            <div class="header-content">
+                <h2>Christian Warren</h2>
+                <p class="location"><img src="Image/Location.jpg">Taguig City, Metro Manila, Philippines</p>
+                <p class="title">Aspiring Full-Stack Developer \ Cloud & Visual Computing</p>
+
+                <div class="header-actions">
+                    <button class="btn">Schedule a call</button>
+                    <button class="btn">Send Email</button>
+                    <button class="btn">View Projects</button>
+                </div>
+            </div>
+
+            <!-- Dark/light mode -->
+            <div class="theme-toggle" id="theme-button" title="Toggle Dark/Light Mode">🌙 ☀️</div>
+        </header>
+
+        <!-- About Me -->
+        <section class="card about">
+            <h2>About</h2>
+            <p>I'm a Computer Science student at Mapúa University and an aspiring full-stack developer with a passion for cloud and visual computing. I enjoy creating applications that are both functional and visually engaging.<br>
+                <br>
+                I've worked on projects in web development, mobile apps, and AI-driven systems, building my skills in Python, PHP, and JavaScript.<br>
+                <br>
+                This portfolio showcases my growth as a developer and my goal to create meaningful and user-friendly digital experiences.</p>
+        </section>
+
+        <!-- Middle Section-->
+         <div class="mid-section">
+            <!-- Left Column-->
+            <div class="left-col">
+                <section class="card education">
+                    <h2>Education</h2>
+                    <strong>BS Computer Science</strong>
+                    <p class="muted">Mapúa University<br>2023 - 2026</p>
+                </section>
+                
+                <section class="card certification">
+                    <h2>Certifications <a href="#" class="view-all">View All ></a></h2>
+                    <div class="cert-item">
+                        <strong>CERTIFICATE 1</strong><br>
+                        <span class="muted">COURSERA</span>
+                    </div>
+
+                    <div class="cert-item">
+                        <strong>CERTIFICATE 2</strong><br>
+                        <span class="muted">COURSERA</span>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Right Column-->
+                <div class="right-col">
+                    <section class="card tech-stack">
+                        <h2> Tech Stack <a href="#" class="view-all">View All></a></h2>
+                    
+                    <div class="tech-category">
+                        <h3>Frontend</h3>
+                        <div class="tech-list">
+                            <span>JavaScript</span>
+                            <span>TypeScript</span>
+                            <span>Vue.js</span>
+                            <span>Next.js</span>
+                            <span>React.js</span>
+                        </div>
+                    </div>
+
+                    <div class="tech-category">
+                        <h3>Backend</h3>
+                        <div class="tech-list">
+                            <span>Python</span>
+                            <span>PHP</span>
+                            <span>Laravel</span>
+                            <span>MySQL</span>
+                            <span>C#</span>
+                        </div>
+                    </div>
+
+                    <div class="tech-category">
+                        <h3>DevOps & Cloud</h3>
+                        <div class="tech-list">
+                            <span>AWS</span>
+                            <span>Docker</span>
+                            <span>Azure</span>
+                            <span>GCP</span>
+                            <span>Terraform</span>
+                        </div>
+                    </div>
+
+                    <div class="tech-category">
+                        <h3>AI / Machine Learning</h3>
+                        <div class="tech-list">
+                            <span>Numpy</span>
+                            <span>Pandas</span>
+                            <span>PyTorch</span>
+                            <span>OpenAI</span>
+                            <span>LangChain</span>
+                        </div>
+                    </div>
+                    </section>
+                </div>
+         </div>
+
+         <section class="card projects-section">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-item"></div>
+                <div class="project-item"></div>
+                <div class="project-item"></div>
+                <div class="project-item"></div>
+            </div>
+         </section>
+
     </div>
+
+    <!-- Theme Toggle Logic -->
+    <script src="script.js"></script>
 </body>
 </html>

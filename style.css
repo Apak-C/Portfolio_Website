@@ -1,0 +1,193 @@
+:root {
+    --border-color: #e5e7eb;
+    --text-main: #111827;
+    --text-muted: #6b7280;
+    --bg-color: #ffffff;
+    --text-machine: #f92b2b;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: var(--text-main);
+    background-color: var(--bg-color);
+    line-height: 1.6;
+    padding: 2rem 24rem;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.card {
+    border: 1px solid var(--border-color);
+    padding: 1.5rem;
+    background: var(--bg-color);
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.view-all {
+    font-size: 12px;
+    color: var(--text-muted);
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.muted {
+    color: var(--text-muted);
+    font-size: 1rem;
+}
+
+/* header layout */
+
+.header {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-content h2 {
+    margin: 0;
+}
+
+.location {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0.15rem 0; 
+}
+
+.location img {
+    width: 16px; 
+    height: 16px;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+}
+
+.title {
+    font-weight: 500;
+    margin: 0 0 0.75rem 0;
+}
+
+.header-actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.btn {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 0.8 rem;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.theme-toggle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #f3f4f6;
+    padding: 0.25rem 0.5rem;
+    border-radius: 20px;
+    cursor: pointer;
+    user-select: none;
+}
+
+/* Middle Section */
+
+.mid-section {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1.5rem;
+}
+
+.cert-item {
+    background-color: #dfdfdf;
+    padding: 0.28rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.75;
+}
+
+.tech-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.875rem;
+    color: var(--text-muted);
+}
+
+/* Project Section */
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    padding: 10px;
+}
+
+.project-item {
+    border: 1px solid var(--border-color);
+    background-color: #fff;
+    height: 120px;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
+}
+
+/* Dark Mode */
+.dark-mode {
+    --border-color: #222222; 
+    --text-main: #ffffff; 
+    --text-muted: #a0a0a0; 
+    --bg-color: #000000; 
+}
+
+.dark-mode .card,
+.dark-mode .project-item {
+    background-color: #0a0a0a;
+    border-color: #222222;
+}
+
+.dark-mode .cert-item {
+    background-color: #222222;
+}
+
+.dark-mode .btn {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.dark-mode .theme-toggle {
+    background-color: #222222;
+}
+
+.dark-mode .location img {
+    filter: invert(1);
+    mix-blend-mode: screen;
+}
