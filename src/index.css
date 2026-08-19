@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Modern Clean Warm-Off-White & Forest-Green Editorial Theme */
+
+
+
+:root {
+  --bg-page: #FBF9F5;
+  --bg-surface: #ffffff;
+  --bg-card: #ffffff;
+  
+  --border-light: #EFECE6;
+  --border-subtle: #E5E0D8;
+  
+  --accent-green: #2D5A43;
+  --accent-green-hover: #234735;
+  --accent-green-light: #EEF4F0;
+  
+  --text-heading: #1B201E;
+  --text-body: #4A524D;
+  --text-muted: #7E8681;
+  --text-light: #A3ACA7;
+  
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  
+  --shadow-card: 0 4px 20px -2px rgba(0, 0, 0, 0.03), 0 2px 6px -1px rgba(0, 0, 0, 0.02);
+  --shadow-hover: 0 10px 30px -4px rgba(0, 0, 0, 0.06);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-page);
+  color: var(--text-body);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom Minimal Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-page);
+}
+::-webkit-scrollbar-thumb {
+  background: #D8D2C7;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B5AEA2;
+}
+
+/* Primary & Secondary Pill Buttons */
+.btn-primary {
+  background-color: var(--accent-green);
+  color: #ffffff;
+  padding: 0.75rem 1.6rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border: 1px solid var(--accent-green);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: var(--accent-green-hover);
+  border-color: var(--accent-green-hover);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(45, 90, 67, 0.2);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: var(--text-heading);
+  padding: 0.75rem 1.6rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border: 1px solid #1B201E;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.btn-secondary:hover {
+  background-color: #1B201E;
+  color: #ffffff;
+}
+
+/* Typography Utility Classes */
+.font-sans { font-family: var(--font-sans); }
+.text-heading { color: var(--text-heading); }
+.text-body { color: var(--text-body); }
+.text-muted { color: var(--text-muted); }
+.text-green { color: var(--accent-green); }
+
+/* Decorative Dotted Grid Canvas Pattern */
+.bg-dot-pattern {
+  background-image: radial-gradient(#CBD2CB 1.5px, transparent 1.5px);
+  background-size: 14px 14px;
+}
+
+/* Green Background Accent Backdrop (Behind Profile Picture) */
+.profile-green-accent {
+  background: radial-gradient(circle at center, rgba(162, 196, 179, 0.45) 0%, rgba(200, 222, 211, 0.25) 50%, transparent 75%);
+}
+
+/* Green Subtitle text highlight */
+.highlight-green {
+  color: var(--accent-green);
+}
+
