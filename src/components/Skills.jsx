@@ -22,6 +22,7 @@ const skillLogos = {
   'Scikit-Learn': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg',
   LangChain: 'https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/langchain.svg',
   Matplotlib: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg',
+  Seaborn: 'https://seaborn.pydata.org/_images/logo-mark-lightbg.svg',
   'Power BI': 'https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/powerbi.svg',
   Excel: 'https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/microsoftexcel.svg',
   PostgreSQL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg',
