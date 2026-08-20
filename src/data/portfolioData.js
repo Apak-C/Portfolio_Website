@@ -57,7 +57,8 @@ export const skillCategories = [
     skills: [
       { name: "Power BI", desc: "Interactive dashboards & KPI metrics" },
       { name: "Excel", desc: "Data analysis, formulas, charts & pivot tables" },
-      { name: "Matplotlib", desc: "Custom publication-quality charts & static plots" }
+      { name: "Matplotlib", desc: "Custom publication-quality charts & static plots" },
+      { name: "Seaborn", desc: "Statistical data visualization & attractive distribution plots" }
     ]
   },
   {

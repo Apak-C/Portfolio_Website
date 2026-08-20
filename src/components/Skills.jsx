@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { motion } from 'framer-motion';
 import { Code2, BarChart3, Brain, PieChart, Database } from 'lucide-react';
 import { skillCategories } from '../data/portfolioData';
