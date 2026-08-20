@@ -99,7 +99,7 @@ export const projects = [
     solution: "Engineered and evaluated a Random Forest classification model using Scikit-Learn and Pandas, achieving 99.96% predictive accuracy and extracting key business drivers like support frequency.",
     techList: "Python · Pandas · Scikit-Learn · Seaborn · Jupyter Notebook",
     technologies: ["Python", "Pandas", "Scikit-Learn", "Seaborn", "Jupyter Notebook"],
-    githubUrl: "https://github.com/Apak-C",
+    githubUrl: "https://github.com/Apak-C/customer-churn-prediction",
     liveDemoUrl: "#",
     featured: true
   },
