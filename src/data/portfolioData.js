@@ -9,7 +9,7 @@ export const personalInfo = {
 
   heroBio: "I enjoy working with data, discovering meaningful insights, and exploring how machine learning can be applied to real-world problems. As an aspiring Machine Learning Engineer, I am continuously learning and sharpening my skills in data analysis, Python, and AI.",
 
-  aboutBio: "I enjoy transforming raw data into meaningful insights and am aspiring to become a Machine Learning Engineer. My current focus is on building a strong foundation in data analysis, Python, SQL, visualization, and machine learning workflows. I believe that mastering this field is a continuous journey, and I am always excited to experiment, learn, and grow.",
+  aboutBio: "I enjoy transforming raw data into meaningful insights and am aspiring to become a Machine Learning Engineer. My current focus is on building a strong foundation in data analysis, Python, visualization, and machine learning workflows. I believe that mastering this field is a continuous journey, and I am always excited to experiment, learn, and grow.",
 
   learningQuote: "My goal is not simply to learn technologies, but to understand them deeply and apply them to meaningful real-world problems. I am continuously improving my skills in data analysis, machine learning, and AI while building projects that allow me to learn through practice.",
 
@@ -29,7 +29,7 @@ export const skillCategories = [
     title: "Programming Languages & Frameworks",
     skills: [
       { name: "Python", desc: "Data manipulation, scripting, statistical modeling & ML workflows" },
-      { name: "SQL", desc: "PostgreSQL & MySQL queries, joins, aggregations & database design" },
+      { name: "FastAPI", desc: "Production REST APIs & machine learning model deployment" },
       { name: "Java (Basic Knowledge)", desc: "Object-oriented programming concepts & algorithms" },
       { name: "Spring Boot (Basic Knowledge)", desc: "Basic backend REST APIs & Java application fundamentals" }
     ]
@@ -53,23 +53,19 @@ export const skillCategories = [
   },
   {
     id: "visualization",
-    title: "Data Visualization & BI",
+    title: "Data Visualization",
     skills: [
-      { name: "Power BI", desc: "Interactive dashboards & KPI metrics" },
-      { name: "Excel", desc: "Data analysis, formulas, charts & pivot tables" },
       { name: "Matplotlib", desc: "Custom publication-quality charts & static plots" },
       { name: "Seaborn", desc: "Statistical data visualization & attractive distribution plots" }
     ]
   },
   {
     id: "tools",
-    title: "Databases & Developer Tools",
+    title: "Developer Tools & Platforms",
     skills: [
-      { name: "PostgreSQL", desc: "Relational database management & complex queries" },
-      { name: "MySQL", desc: "Database administration & schema design" },
       { name: "Git / GitHub", desc: "Version control, branching & repository management" },
       { name: "Jupyter Notebook", desc: "Exploratory data analysis & model documentation" },
-      { name: "VS Code", desc: "Code editing, virtual environment management & debugging" }
+      { name: "Uvicorn", desc: "ASGI web server implementation for model deployment" }
     ]
   }
 ];
