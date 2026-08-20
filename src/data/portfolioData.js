@@ -85,7 +85,7 @@ export const projects = [
     solution: "Executed thorough data cleaning, feature engineering, statistical distribution checks, and visualization to extract actionable insights.",
     techList: "Python · Pandas · NumPy · Matplotlib · Seaborn",
     technologies: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
-    githubUrl: "https://github.com/Apak-C",
+    githubUrl: "https://github.com/Apak-C/Retail_Sales",
     liveDemoUrl: "#",
     featured: true
   },
