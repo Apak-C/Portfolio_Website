@@ -96,9 +96,9 @@ export const projects = [
     category: "Machine Learning",
     summary: "Predict customer churn patterns and identify key retention drivers across 440K+ subscription records using machine learning.",
     problem: "Identifying at-risk customer churn patterns across large-scale subscription data (440K+ rows) enables targeted retention strategies and prevents revenue loss.",
-    solution: "Engineered and evaluated a Random Forest classification model using Scikit-Learn and Pandas, achieving 99.96% predictive accuracy and extracting key business drivers like support frequency.",
-    techList: "Python · Pandas · Scikit-Learn · Seaborn · Jupyter Notebook",
-    technologies: ["Python", "Pandas", "Scikit-Learn", "Seaborn", "Jupyter Notebook"],
+    solution: "Engineered a Random Forest model and deployed it via a production-ready FastAPI REST API, achieving 99.96% accuracy and enabling real-time automated churn prediction workflows.",
+    techList: "Python • Pandas • Scikit-Learn • FastAPI • Uvicorn • Jupyter Notebook",
+    technologies: ["Python", "Pandas", "Scikit-Learn", "FastAPI", "Uvicorn", "Jupyter Notebook"],
     githubUrl: "https://github.com/Apak-C/customer-churn-prediction",
     liveDemoUrl: "#",
     featured: true
