@@ -26,9 +26,10 @@ export const personalInfo = {
 export const skillCategories = [
   {
     id: "programming",
-    title: "Programming Languages & Frameworks",
+    title: "Programming & Query Languages",
     skills: [
       { name: "Python", desc: "Data manipulation, scripting, statistical modeling & ML workflows" },
+      { name: "SQL", desc: "Complex queries, multi-table aggregations, joins & view optimizations" },
       { name: "FastAPI", desc: "Production REST APIs & machine learning model deployment" },
       { name: "Java (Basic Knowledge)", desc: "Object-oriented programming concepts & algorithms" },
       { name: "Spring Boot (Basic Knowledge)", desc: "Basic backend REST APIs & Java application fundamentals" }
@@ -36,10 +37,11 @@ export const skillCategories = [
   },
   {
     id: "analysis",
-    title: "Data Analysis & Manipulation",
+    title: "Data Analysis & Modeling",
     skills: [
       { name: "Pandas", desc: "DataFrames, grouping, pivot tables & data restructuring" },
       { name: "NumPy", desc: "Numerical arrays, vectorization & mathematical operations" },
+      { name: "Data Modeling", desc: "Relational schema design, entity relationships & data normalization" },
       { name: "Data Cleaning", desc: "Handling missing values, outlier detection & normalization" }
     ]
   },
@@ -53,16 +55,18 @@ export const skillCategories = [
   },
   {
     id: "visualization",
-    title: "Data Visualization",
+    title: "Data Visualization & BI",
     skills: [
+      { name: "Power BI", desc: "Interactive executive dashboards, KPI metrics & risk tracking" },
       { name: "Matplotlib", desc: "Custom publication-quality charts & static plots" },
       { name: "Seaborn", desc: "Statistical data visualization & attractive distribution plots" }
     ]
   },
   {
     id: "tools",
-    title: "Developer Tools & Platforms",
+    title: "Databases & Platforms",
     skills: [
+      { name: "PostgreSQL", desc: "Relational database architecture, table schemas & indexing" },
       { name: "Git / GitHub", desc: "Version control, branching & repository management" },
       { name: "Jupyter Notebook", desc: "Exploratory data analysis & model documentation" },
       { name: "Uvicorn", desc: "ASGI web server implementation for model deployment" }
