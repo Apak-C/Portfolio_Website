@@ -29,7 +29,7 @@ const skillLogos = {
   PostgreSQL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg',
   'Git / GitHub': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg',
   'Jupyter Notebook': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg',
-  Uvicorn: 'https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/uvicorn.svg'
+  Uvicorn: '/uvicorn.png'
 };
 
 export default function Skills() {

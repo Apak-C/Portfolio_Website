@@ -54,9 +54,6 @@ export default function Contact() {
                 >
                   {personalInfo.socials.email}
                 </a>
-                <p className="text-xs text-[#7E8681]">
-                  Click to open your email client, or copy the address.
-                </p>
               </div>
             </div>
 
