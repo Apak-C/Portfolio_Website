@@ -30,9 +30,7 @@ export const skillCategories = [
     skills: [
       { name: "Python", desc: "Data manipulation, scripting, statistical modeling & ML workflows" },
       { name: "SQL", desc: "Complex queries, multi-table aggregations, joins & view optimizations" },
-      { name: "FastAPI", desc: "Production REST APIs & machine learning model deployment" },
-      { name: "Java (Basic Knowledge)", desc: "Object-oriented programming concepts & algorithms" },
-      { name: "Spring Boot (Basic Knowledge)", desc: "Basic backend REST APIs & Java application fundamentals" }
+      { name: "FastAPI", desc: "Production REST APIs & machine learning model deployment" }
     ]
   },
   {

@@ -15,8 +15,6 @@ const skillLogos = {
   Python: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg',
   SQL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azuresqldatabase/azuresqldatabase-original.svg',
   FastAPI: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg',
-  'Java (Basic Knowledge)': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg',
-  'Spring Boot (Basic Knowledge)': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg',
   Pandas: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg',
   NumPy: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg',
   'Data Modeling': 'https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/diagramsdotnet.svg',
