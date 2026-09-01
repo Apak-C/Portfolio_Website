@@ -11,7 +11,7 @@ export const personalInfo = {
 
   aboutBio: "I'm a Computer Science student at Mapúa University who builds data systems and backend architectures using modern AI-augmented workflows. I leverage AI as an advanced co-pilot to accelerate development, optimize SQL pipelines, and prototype applications rapidly—allowing me to focus on database design, data analytics, and solving complex problems.",
 
-  learningQuote: "My goal is not simply to learn technologies, but to understand them deeply and apply them to meaningful real-world problems. I am continuously improving my skills in data analysis, machine learning, and AI while building projects that allow me to learn through practice.",
+  learningQuote: "My goal is not simply to learn technologies, but to understand them deeply and apply them to meaningful real-world problems. While I specialize in data analysis and machine learning, game development serves as my creative outlet and stress reliever—a space where I can unwind, experiment freely, and keep my passion for building alive.",
 
   contactIntro: "I'm always open to new opportunities, collaborations, and conversations about data, machine learning, and technology. Feel free to reach out directly via email or connect on social platforms.",
 
