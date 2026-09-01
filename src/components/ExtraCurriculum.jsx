@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Github, ArrowRight, X, Gamepad2, Sparkles } from 'lucide-react';
+import { Github, ArrowRight, X, Sparkles } from 'lucide-react';
 import { extraCurricularProjects } from '../data/portfolioData';
 
 export default function ExtraCurriculum() {
@@ -143,25 +143,6 @@ export default function ExtraCurriculum() {
                       {activeModalProject.solution}
                     </p>
                   </div>
-
-                  {/* Future Game Dev Container / Embed Area */}
-                  {activeModalProject.isGameDevContainer && (
-                    <div>
-                      <strong className="text-[#1B201E] block font-bold mb-1">
-                        Game Dev Player & Embed Slot:
-                      </strong>
-                      <div className="bg-[#1B201E] text-white p-5 rounded-2xl border border-[#EFECE6] text-center space-y-2 relative overflow-hidden">
-                        <div className="absolute inset-0 bg-dot-pattern opacity-15 pointer-events-none" />
-                        <Gamepad2 className="w-8 h-8 text-[#82C39B] mx-auto animate-pulse" />
-                        <p className="text-xs font-semibold text-slate-200">
-                          Game Dev Container (Ready for Embed / WebGL / Itch.io)
-                        </p>
-                        <p className="text-[11px] text-slate-400 max-w-sm mx-auto">
-                          You can place your game iframe, playable canvas build, or gameplay trailer right here later.
-                        </p>
-                      </div>
-                    </div>
-                  )}
 
                   <div>
                     <strong className="text-[#1B201E] block font-bold mb-1">Technologies & Tools:</strong>

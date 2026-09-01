@@ -179,8 +179,7 @@ export const extraCurricularProjects = [
     techList: "GDScript · Godot Engine · Aseprite · Blender · Git",
     technologies: ["GDScript", "Godot Engine", "Aseprite", "Blender", "Git"],
     githubUrl: "https://github.com/Dooooooks/scream",
-    liveDemoUrl: "#",
-    isGameDevContainer: true
+    liveDemoUrl: "#"
   }
 ];
 
