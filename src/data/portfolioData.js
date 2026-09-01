@@ -1,13 +1,13 @@
 export const personalInfo = {
   name: "Christian George Warren",
-  title: "Data Analyst | Aspiring Machine Learning Engineer",
+  title: "Data Analyst | Aspiring Machine Learning Engineer | AI Enthusiast",
   subtitle: "Computer Science Student • Mapúa University – Makati",
   university: "Mapúa University – Makati",
   degree: "Bachelor of Science in Computer Science",
   location: "Makati City, Philippines",
   profileImage: "/profile.png",
 
-  heroBio: "I enjoy working with data, discovering meaningful insights, and exploring how machine learning can be applied to real-world problems. As an aspiring Machine Learning Engineer, I am continuously learning and sharpening my skills in data analysis, Python, and AI.",
+  heroBio: "I enjoy working with data, discovering meaningful insights, and exploring how machine learning can be applied to real-world problems. As an active AI Enthusiast, I love building projects with AI, modern LLM pipelines, and intelligent workflows to solve complex challenges.",
 
   aboutBio: "I'm a Computer Science student at Mapúa University who builds data systems and backend architectures using modern AI-augmented workflows. I leverage AI as an advanced co-pilot to accelerate development, optimize SQL pipelines, and prototype applications rapidly—allowing me to focus on database design, data analytics, and solving complex problems.",
 

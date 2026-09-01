@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight, Mail } from 'lucide-react';
+import { ArrowRight, Mail, Brain, Database, Sparkles } from 'lucide-react';
 import { personalInfo } from '../data/portfolioData';
 
 export default function Hero() {
@@ -16,10 +16,16 @@ export default function Hero() {
             transition={{ duration: 0.6 }}
             className="lg:col-span-7 space-y-6"
           >
-            {/* Small Uppercase Prefix */}
-            <span className="text-xs font-bold tracking-[0.2em] text-[#7E8681] uppercase block">
-              HELLO, I'M
-            </span>
+            {/* Small Uppercase Prefix & AI Pill */}
+            <div className="flex flex-wrap items-center gap-3">
+              <span className="text-xs font-bold tracking-[0.2em] text-[#7E8681] uppercase block">
+                HELLO, I'M
+              </span>
+              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#EEF4F0] border border-[#2D5A43]/20 text-[#2D5A43] text-xs font-bold tracking-wide">
+                <span className="w-2 h-2 rounded-full bg-[#2D5A43] animate-pulse" />
+                <span>AI Enthusiast</span>
+              </span>
+            </div>
 
             {/* Main Title & Subtitle */}
             <div className="space-y-3">
@@ -79,6 +85,45 @@ export default function Hero() {
           </motion.div>
 
         </div>
+
+        {/* AI & Analytics Highlight Strip (Positioned right before About section) */}
+        <motion.div
+          initial={{ opacity: 0, y: 15 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.25 }}
+          className="mt-16 pt-8 border-t border-[#EFECE6] grid grid-cols-1 sm:grid-cols-3 gap-6"
+        >
+          <div className="flex items-center gap-3.5 bg-white border border-[#EFECE6] rounded-2xl p-4 shadow-[0_2px_12px_rgba(0,0,0,0.02)]">
+            <div className="w-10 h-10 rounded-xl bg-[#EEF4F0] text-[#2D5A43] flex items-center justify-center shrink-0">
+              <Brain className="w-5 h-5" />
+            </div>
+            <div>
+              <h4 className="text-sm font-bold text-[#1B201E]">AI Enthusiast</h4>
+              <p className="text-xs text-[#7E8681]">Creating intelligent AI-driven applications</p>
+            </div>
+          </div>
+
+          <div className="flex items-center gap-3.5 bg-white border border-[#EFECE6] rounded-2xl p-4 shadow-[0_2px_12px_rgba(0,0,0,0.02)]">
+            <div className="w-10 h-10 rounded-xl bg-[#EEF4F0] text-[#2D5A43] flex items-center justify-center shrink-0">
+              <Database className="w-5 h-5" />
+            </div>
+            <div>
+              <h4 className="text-sm font-bold text-[#1B201E]">Data Analytics</h4>
+              <p className="text-xs text-[#7E8681]">Statistical modeling & SQL pipelines</p>
+            </div>
+          </div>
+
+          <div className="flex items-center gap-3.5 bg-white border border-[#EFECE6] rounded-2xl p-4 shadow-[0_2px_12px_rgba(0,0,0,0.02)]">
+            <div className="w-10 h-10 rounded-xl bg-[#EEF4F0] text-[#2D5A43] flex items-center justify-center shrink-0">
+              <Sparkles className="w-5 h-5" />
+            </div>
+            <div>
+              <h4 className="text-sm font-bold text-[#1B201E]">Rapid Prototyping</h4>
+              <p className="text-xs text-[#7E8681]">Building & experimenting through practice</p>
+            </div>
+          </div>
+        </motion.div>
+
       </div>
     </section>
   );
