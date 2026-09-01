@@ -165,3 +165,23 @@ export const educationDetails = {
   location: "Makati City, Philippines",
   description: "Focusing on core Computer Science foundations, database systems, data structures, and specialized coursework in Data Analysis, Machine Learning, and Artificial Intelligence."
 };
+
+export const extraCurricularProjects = [
+  {
+    id: "been-here-before",
+    title: "Been Here Before",
+    subtitle: "2D Psychological Horror Game",
+    category: "Game Development",
+    summary: "A 2D psychological horror game inspired by Exit 8, where players are trapped inside a looping apartment environment. Requires careful observation of surroundings to spot subtle anomalies, track progressive reality distortions, and escape before time runs unstable.",
+    contribution: "Contributed most on animation (character sprites, anomaly transitions & scene rigging).",
+    problem: "Designing an unsettling looping environment with progressive psychological tension, subtle visual anomalies, and seamless room loop resets.",
+    solution: "Programmed core loop detection and anomaly state machines in Godot Engine, authored custom frame-by-frame 2D pixel animations in Aseprite, built 3D environmental references in Blender, and tracked versions with Git.",
+    techList: "GDScript · Godot Engine · Aseprite · Blender · Git",
+    technologies: ["GDScript", "Godot Engine", "Aseprite", "Blender", "Git"],
+    githubUrl: "https://github.com/Dooooooks/scream",
+    liveDemoUrl: "#",
+    isGameDevContainer: true
+  }
+];
+
+
