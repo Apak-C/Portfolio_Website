@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Github, ArrowRight, X } from 'lucide-react';
+import { Github, ArrowRight, X, ExternalLink } from 'lucide-react';
 import { extraCurricularProjects } from '../data/portfolioData';
 
 export default function ExtraCurriculum() {
@@ -75,15 +75,28 @@ export default function ExtraCurriculum() {
                   <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
                 </button>
 
-                <a
-                  href={project.githubUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-xs font-medium text-[#7E8681] hover:text-[#1B201E] flex items-center gap-1 transition-colors"
-                >
-                  <Github className="w-4 h-4" />
-                  <span>Code</span>
-                </a>
+                <div className="flex items-center gap-3">
+                  {project.liveDemoUrl && project.liveDemoUrl !== "#" && (
+                    <a
+                      href={project.liveDemoUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-xs font-bold text-[#2D5A43] hover:underline flex items-center gap-1 transition-colors"
+                    >
+                      <ExternalLink className="w-3.5 h-3.5" />
+                      <span>Play</span>
+                    </a>
+                  )}
+                  <a
+                    href={project.githubUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xs font-medium text-[#7E8681] hover:text-[#1B201E] flex items-center gap-1 transition-colors"
+                  >
+                    <Github className="w-4 h-4" />
+                    <span>Code</span>
+                  </a>
+                </div>
               </div>
 
             </motion.div>
@@ -151,12 +164,23 @@ export default function ExtraCurriculum() {
                   </div>
                 </div>
 
-                <div className="mt-6 pt-5 border-t border-[#EFECE6] flex items-center justify-end gap-3">
+                <div className="mt-6 pt-5 border-t border-[#EFECE6] flex flex-wrap items-center justify-end gap-3">
+                  {activeModalProject.liveDemoUrl && activeModalProject.liveDemoUrl !== "#" && (
+                    <a
+                      href={activeModalProject.liveDemoUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn-primary"
+                    >
+                      <ExternalLink className="w-4 h-4" />
+                      <span>Play on Itch.io</span>
+                    </a>
+                  )}
                   <a
                     href={activeModalProject.githubUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="btn-primary"
+                    className={activeModalProject.liveDemoUrl && activeModalProject.liveDemoUrl !== "#" ? "btn-secondary" : "btn-primary"}
                   >
                     <Github className="w-4 h-4" />
                     <span>View Repository</span>

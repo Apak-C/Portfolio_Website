@@ -177,7 +177,7 @@ export const extraCurricularProjects = [
     techList: "GDScript · Godot Engine · Aseprite · Blender · Git · QA Playtesting",
     technologies: ["GDScript", "Godot Engine", "Aseprite", "Blender", "Git", "QA Playtesting"],
     githubUrl: "https://github.com/Dooooooks/scream",
-    liveDemoUrl: "#"
+    liveDemoUrl: "https://hoyyyyyy.itch.io/been-here-before"
   }
 ];
 
