@@ -113,7 +113,7 @@ export const projects = [
     solution: "Built an end-to-end data pipeline by architecting a relational PostgreSQL database, writing optimized SQL views for multi-table aggregation, and developing an interactive Power BI executive dashboard to track credit risk and financial KPIs.",
     techList: "PostgreSQL · SQL · Power BI · Data Modeling",
     technologies: ["PostgreSQL", "SQL", "Power BI", "Data Modeling"],
-    githubUrl: "https://github.com/Apak-C",
+    githubUrl: "https://github.com/Apak-C/RetailBankingDB",
     liveDemoUrl: "#",
     featured: true
   }
