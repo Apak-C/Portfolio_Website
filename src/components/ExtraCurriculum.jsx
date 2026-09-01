@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Github, ArrowRight, X, Sparkles } from 'lucide-react';
+import { Github, ArrowRight, X } from 'lucide-react';
 import { extraCurricularProjects } from '../data/portfolioData';
 
 export default function ExtraCurriculum() {
@@ -54,8 +54,7 @@ export default function ExtraCurriculum() {
 
                 {/* Role / Key Contribution Highlight */}
                 {project.contribution && (
-                  <div className="p-3 rounded-2xl bg-[#FBF9F5] border border-[#EFECE6] text-xs text-[#2D5A43] font-semibold flex items-start gap-2">
-                    <Sparkles className="w-3.5 h-3.5 text-[#2D5A43] shrink-0 mt-0.5" />
+                  <div className="p-3 rounded-2xl bg-[#FBF9F5] border border-[#EFECE6] text-xs text-[#2D5A43] font-semibold">
                     <span>{project.contribution}</span>
                   </div>
                 )}
@@ -125,7 +124,7 @@ export default function ExtraCurriculum() {
 
                 {activeModalProject.contribution && (
                   <p className="text-xs font-semibold text-[#2D5A43] mb-4">
-                    ✨ {activeModalProject.contribution}
+                    {activeModalProject.contribution}
                   </p>
                 )}
 
